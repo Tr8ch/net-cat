@@ -12,7 +12,6 @@ TCP Chat is a simple and concurrent chat server and client written in Go, allowi
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Authors](#authors)
 
 ## Features
@@ -36,17 +35,17 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
    ```bash
-        git clone https://github.com/yourusername/tcp-chat.git
+    git clone https://github.com/yourusername/tcp-chat.git
    ```
 2. Change into the project directory:
 
    ```bash
-        cd tcp-chat
+    cd tcp-chat
     ```
 3. Build the server and client:
 
     ```bash
-        go build -o TCPChat ./cmd/server
+    go build -o TCPChat ./cmd/server
     ```
 ### Usage
 
@@ -55,7 +54,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 To run the TCP Chat server, use the following command:
 
     ```bash
-       ./TCPChat [host] [port]
+    ./TCPChat [host] [port]
     ```
  - [host] (optional): The host to bind the server to. Default is "localhost".
  - [port] (optional): The port number to listen on. Default is "8989".
@@ -65,13 +64,13 @@ To run the TCP Chat server, use the following command:
 Run the server on the default host and port:
 
     ```bash
-        ./TCPChat
+    ./TCPChat
     ```
 
 Run the server on a custom host and port:
 
     ```bash
-        ./TCPChat 0.0.0.0 9999
+    ./TCPChat 0.0.0.0 9999
     ```
 
 ### Connecting to the Chat
