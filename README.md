@@ -47,7 +47,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```bash
     go build -o TCPChat ./cmd/server
     ```
-### Usage
+## Usage
 
 ### Starting the Server
 
