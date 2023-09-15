@@ -39,7 +39,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```
 2. Change into the project directory:
 
-   ```bash
+    ```bash
     cd tcp-chat
     ```
 3. Build the server and client:
@@ -49,29 +49,29 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 ### Usage
 
-## Starting the Server
+### Starting the Server
 
 To run the TCP Chat server, use the following command:
 
-    ```bash
+   ```bash
     ./TCPChat [host] [port]
-    ```
+   ```
  - [host] (optional): The host to bind the server to. Default is "localhost".
  - [port] (optional): The port number to listen on. Default is "8989".
 
-## Example
+### Example
 
 Run the server on the default host and port:
 
-    ```bash
+   ```bash
     ./TCPChat
-    ```
+   ```
 
 Run the server on a custom host and port:
 
-    ```bash
+   ```bash
     ./TCPChat 0.0.0.0 9999
-    ```
+   ```
 
 ### Connecting to the Chat
 
